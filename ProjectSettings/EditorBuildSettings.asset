@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/pbj_prototype.unity
+  - enabled: 0
+    path: Assets/level2.unity
+  - enabled: 0
+    path: Assets/Level2.unity
+  - enabled: 1
+    path: Assets/Level 1.unity
+  - enabled: 1
+    path: Assets/Level 2.unity
+  - enabled: 1
+    path: Assets/Level 3.unity

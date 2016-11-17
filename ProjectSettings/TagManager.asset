@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
+  - PB
+  - Jelly
+  - Bread
+  - Obstacle
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -15,11 +20,11 @@ TagManager:
   - 
   - 
   - Platform
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PB
+  - Jelly
+  - Bread
+  - Obstacle
+  - Wall
   - 
   - 
   - 
