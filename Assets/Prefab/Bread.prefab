@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012562719678}
   - 33: {fileID: 33000012049549730}
-  - 65: {fileID: 65000013463701880}
   - 23: {fileID: 23000011144162558}
   - 114: {fileID: 114000010867268518}
+  - 135: {fileID: 135000011658709584}
   m_Layer: 11
   m_Name: Bread
   m_TagString: Bread
@@ -79,18 +79,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011977256312}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65000013463701880
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011977256312}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114000010867268518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -104,3 +92,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementPositions: []
   speed: 0
+--- !u!135 &135000011658709584
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011977256312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

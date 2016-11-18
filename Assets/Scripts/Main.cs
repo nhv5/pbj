@@ -7,7 +7,7 @@ public class Main : MonoBehaviour {
     public static int level = 1;
     private float timer = 30.0f;
 
-    void Update()
+    void FixedUpdate()
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
